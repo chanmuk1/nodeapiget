@@ -9,7 +9,6 @@ pipeline {
         stage('Build') {
             steps {
                 bat 'npm install'
-                bat 'node index.js'
             }
         }       
     }
