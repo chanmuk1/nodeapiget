@@ -8,8 +8,8 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'npm install'
-                sh 'node index.js'
+                bat 'npm install'
+                bat 'node index.js'
             }
         }       
     }
